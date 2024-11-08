@@ -1,7 +1,7 @@
 class Gryffindor extends Hogwarts {
-    private int nobility;
-    private int honor;
-    private int bravery;
+    private final int nobility;
+    private final int honor;
+    private final int bravery;
 
     public Gryffindor(String name, int magicPower, int transfigurationDistance, int nobility, int honor, int bravery) {
         super(name, magicPower, transfigurationDistance);
